@@ -1,4 +1,28 @@
+h1{
+  font-size: 1.5em;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  margin-top: -4.5px;
 
+}
+
+h4{
+  font-size: .8em;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+
+.button {
+  background-color: #1c40e3; 
+  
+  border: none;
+  color: #dfe5e8;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 #particles-js {
     position: absolute;
@@ -15,7 +39,7 @@
 
 
 
-.panel{
+.box{
 
   
     font-size:2em;
@@ -30,6 +54,9 @@
     padding:20px;
    
     border-radius: 25px;
+
+    
+  
   
    
   
