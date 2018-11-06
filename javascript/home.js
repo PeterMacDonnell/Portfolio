@@ -26,18 +26,7 @@ function keepDrawing() {
 
 
 
-// Index to Home
-document.getElementById("mainButton").addEventListener("click", ()=>{
-    location.href="home.html"
-})
 
-// document.getElementsByClassName("boxOne").addEventListener("click", ()=>{
-//     location.href="skills.html"
-// })
-
-// document.getElementsByClassName("boxTwo").addEventListener("click", ()=>{
-//     location.href="projects.html"
-// })
 
 //Resume Button
 document.getElementById("resumeButton").addEventListener("click", ()=>{
