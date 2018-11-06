@@ -3,114 +3,142 @@ html, body {
   height: 100%;
 }
 
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  z-index: 0;
+  /* display: flex; */
+  min-height: 100%;
+  /* display: flex; */
+  /* flex-direction: row;
+  align-items: stretch; */
+}
 
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(100px, auto);
+  position:absolute;
+  z-index: 1;
+}
 
+.wrapper>div {
+  margin: 1em;
+}
 
-h1{
-    font-size: 1.5em;
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    margin-top: -4.5px;
-  
-  }
-  
-  h4{
-    font-size: .8em;
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-  }
+h1 {
+  font-size: 1.5em;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  margin-top: -4.5px;
+  color:#b61924;
 
-  #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #dfe5e8;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    z-index: 1;
-    /* display: flex; */
-
-    min-height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
 
 }
 
-  .boxOne{
-    font-size:2em;
-    z-index:10;
-    width:500px;
-    /* width:280px; */
-    height:460px;
-    /* height:240px; */
-    background:#eee;
-    margin: auto;
-    padding:20px;
-    border-radius: 25px;
-    z-index: 2;
-    /* display: flex; */
-    flex-wrap:nowrap;
-    order:1;
-    
-      }
+h3 {
+  font-size: .8em;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color:#b61924;
+
+}
+
+h4 {
+  font-size: .8em;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color:#b61924;
+
+}
+
+/* #particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #dfe5e8;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 1;
   
-      .boxTwo{
-        font-size:2em;
-        z-index:10;
-        width:720px;
-        height:680px;
-        background:#eee;
-        margin: auto;
-        padding:20px;
-        border-radius: 25px;
-        z-index: 2;
-        /* display: flex; */
-        flex-wrap:nowrap;
-        order:2;
-        
-          }
-      .particles-js-canvas-el{
-        position: absolute;
-      }
+  min-height: 100%;
+  
+  flex-direction: row;
+  align-items: stretch;
+} */
 
-      .button {
-        background-color: #1c40e3; 
-        border-radius: 25px;
-        border: none;
-        color: #dfe5e8;
-        padding: 15px 32px;
-        margin: auto;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        /* align-items:center; */
-        margin: auto;
-        margin-left: 65px;
-        /* margin-bottom: 30px; */
-        margin-top: -90px;
-      }
 
-      
 
-      .icon{
-        color:#1c40e3;
-       
-       font-size:2.25em;
-       padding-right: 21.5px;
-       padding-bottom: 21.5px;
-       /* padding: 12px; */
-       display:inline-block;
-       width: 72px;
-       height: 72px;
-      }
+.boxOne {
+  font-size: 2em;
+  z-index: 2;
+  /* width:500px;
+    height:460px; */
+  /* background: #eee; */
+  /* margin: auto; */
+  padding: 20px;
+  border-radius: 25px;
+ 
+  /* display: flex; */
+  /* flex-wrap:nowrap; */
+  /* order:1; */
+}
 
-      .footer{
-        order:3;
-        flex-shrink: 0;
-      }
+.boxThree {
+  font-size: 2em;
+  z-index: 2;
+  /* background: #eee; */
+  padding: 20px;
+  border-radius: 25px;
+}
 
-      
+.boxTwo {
+  font-size: 2em;
+  z-index: 2;
+  /* width:720px;
+        height:680px; */
+  /* background: #eee; */
+  /* margin: auto; */
+  padding: 20px;
+  border-radius: 25px;
+
+ 
+  /* flex-wrap:nowrap; */
+ 
+}
+
+.particles-js-canvas-el {
+  position: absolute;
+}
+
+.icon {
+  color: #1c40e3;
+  /* font-size: 2.25em; */
+  font-size: 3em;
+  padding-right: 21.5px;
+  padding-bottom: 21.5px;
+  /* padding: 12px; */
+  display: inline-block;
+  width: 92px;
+  height: 92px;
+}
+
+.cIcon{
+  font-size: 2.25em;
+ 
+}
+
+#links{
+margin: auto;
+  
+}
