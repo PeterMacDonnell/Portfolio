@@ -179,6 +179,10 @@ img {
   position: absolute;
 }
 
+.technologies{
+  padding-top: 1em;
+}
+
 .icon {
   color: #1c40e3;
   /* font-size: 2.25em; */
@@ -197,29 +201,39 @@ img {
 }
 
 #links{
-margin: auto;
-  
+  display:flex;
+  justify-content: space-evenly;
+  padding-top: 1em;
+  /* flex-wrap: nowrap; */
+
+/* margin: auto; */
+/* flex-wrap: wrap; */
+/* flex-direction: row; */
 }
 
 #resumeButton{
   /* background-color: #1c40e3;  */
-  background-color: purple;
+  background-color: #b61924;
   border-radius: 5px;
   border: none;
   color: #dfe5e8;
-  padding: 15px 32px;
+  padding: 20px 10px;
   margin: auto;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 16px;
   /* align-items:center; */
-  margin: auto;
-  margin-left: 65px;
+  /* margin: auto; */
+  /* margin-left: 65px; */
   /* margin-bottom: 30px; */
-  margin-top: -90px;
+  /* margin-top: -90px; */
  
 }
 
 #resume{
-  float:left;
+  /* float:left; */
+}
+
+a{
+  color:#b61924;
 }
