@@ -66,5 +66,9 @@ h4{
       .particles-js-canvas-el{
         position: absolute;
       }
+
+      .button{
+        font-family: 'Rubik', sans-serif;
+      }
     
   

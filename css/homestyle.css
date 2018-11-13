@@ -138,12 +138,12 @@ h4 {
 /* card stuff */
 
 .card {
-  box-shadow: 0 4px 8px 0 #fffcfc33;
+  box-shadow: 0 4px 8px 0 #1c40e3;
   transition: 0.3s;
   flex-grow: 1;
-  width: 40%;
+  width: 30%;
   border-radius: 5px;
-  background-color: red;
+  /* background-color: red; */
   display: inline-block;
   margin: 10px;
 }
@@ -236,4 +236,29 @@ img {
 
 a{
   color:#b61924;
+}
+
+.button{
+  font-family: 'Rubik', sans-serif;
+}
+
+img{
+  height: 45%;
+}
+
+h5{
+  font-family: 'Rubik', sans-serif;
+  color:#b61924;
+
+}
+
+h6{
+  font-family: 'Rubik', sans-serif;
+  color:#b61924;
+
+font-size: 50%;
+}
+
+p{
+  font-family: 'Rubik', sans-serif;
 }
